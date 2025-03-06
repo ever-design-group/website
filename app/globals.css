@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.Hero {
+  background-image: linear-gradient(90deg, #0F3532, #00000046), url("/images/HeroImage.png");
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  animation: zoomOut 10s infinite;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 7px;
+  background-color: #e463224d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E46322;
+}
+
+.achive {
+  background-image: linear-gradient(hsla(40, 95%, 40%, 0.833), #e99f0aa0), url("/images/HeroImage.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  gap: 50px;
+  animation: zoomOut 10s infinite;
+}
+
+.contact {
+  background-image: linear-gradient(#d1670a9c, #d1670a9c), url("/images/HeroImage.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  animation: zoomOut 10s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 7px;
+  background-color: #e463224d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E46322;
+}
+
+.WelcomeHero {
+  background-image: linear-gradient(#d1670a9c, #d1670a9c), url("/images/bg.mp4");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  animation: zoomOut 10s infinite;
+}
+
+.secondbtn {
+  margin: 0 0 0 30px;
+  border: 1px white solid;
+}
+
+.side {
+  background-color: #0F3532;
+  width: 15px;
+  margin: 0 10px 0 0;
+}
+
+.about {
+  height: 500px;
+  background-image: linear-gradient(90deg, #0F3532, #00000046), url("/images/HeroImage.png");
+  background-attachment: fixed; /* Changed from static to fixed for better effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  animation: zoomOut 10s infinite;
+}
+
+/* @keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+/* Responsive Adjustments */
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 640px) {
+  .Hero, .achive, .contact, .WelcomeHero {
+    gap: 20px; /* Reduce gap on small screens */
+  }
+
+  .secondbtn {
+    margin: 0 0 0 10px; /* Reduce margin on small screens */
+  }
+
+  .side {
+    width: 10px; /* Reduce width on small screens */
+    margin: 0 5px 0 0; /* Reduce margin on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .Hero, .achive, .contact, .WelcomeHero {
+    gap: 30px; /* Adjust gap for medium screens */
+  }
+
+  .secondbtn {
+    margin: 0 0 0 20px; /* Adjust margin for medium screens */
+  }
+
+  .side {
+    width: 15px; /* Restore width for medium screens */
+    margin: 0 10px 0 0; /* Restore margin for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .Hero, .achive, .contact, .WelcomeHero {
+    gap: 50px; /* Restore gap for large screens */
+  }
+
+  .secondbtn {
+    margin: 0 0 0 30px; /* Restore margin for large screens */
+  }
+
+  .side {
+    width: 15px; /* Restore width for large screens */
+    margin: 0 10px 0 0; /* Restore margin for large screens */
+  }
+}
