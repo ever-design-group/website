@@ -1,5 +1,5 @@
 "use client";
-import Team from '@/components/aboutus/team';
+import Home from '@/components/land/Home'
 import React, { useEffect } from 'react';
 import "aos/dist/aos.css";
 
@@ -13,7 +13,7 @@ const Page = () => {
 
   return (
     <main className="">
-      <Team />
+     <Home />
     </main>
   );
 };

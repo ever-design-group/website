@@ -1,13 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS CSS
+import "aos/dist/aos.css";
 
 const Team = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ duration: 10 }); 
+  // }, []);
 
   return (
     <section
@@ -26,11 +25,12 @@ const Team = () => {
         </div>
         <div className="flex xs:flex-col w-full max-w-[600px]">
           <Image
-            src="/images/img3.svg"
-            alt="About Us Image"
+            src="/images/Ceo.png" 
+            alt="Theophile IYAMUREMYE"
             layout="responsive"
             width={1000}
             height={1500}
+            priority 
           />
         </div>
       </div>
@@ -39,11 +39,12 @@ const Team = () => {
       <div className="w-screen flex md:flex-row items-center justify-center flex-1 xs:flex-col-reverse text-white py-10">
         <div className="flex xs:flex-col w-full max-w-[600px]">
           <Image
-            src="/images/img3.svg"
-            alt="About Us Image"
+            src="/images/howstart.jpg" 
+            alt="How we started"
             layout="responsive"
             width={1000}
             height={1500}
+            priority 
           />
         </div>
         <div className="flex flex-col gap-2 items-start max-w-[600px] mx-6">

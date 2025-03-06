@@ -4,6 +4,17 @@ import { navLinks } from "@/constants/landnavlinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import {
+  FaPhone,
+  FaHome,
+  FaUser,
+  FaBars,
+  FaTimes,
+  FaFacebook,
+  FaGoogle,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa"; // Import all required icons
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -29,7 +40,7 @@ const Navbar = () => {
   };
 
   const handleLinkClick = () => {
-    setIsClicked(false); 
+    setIsClicked(false);
   };
 
   return (
@@ -58,17 +69,42 @@ const Navbar = () => {
               key={item.label}
               onClick={handleLinkClick}
               className={clsx(
-                `group hover:text-primary-2 hover:text-secondary`,
+                `group hover:text-primary-2 hover:text-secondary flex items-center gap-2`,
                 {
                   "text-primary-2": isActive,
                 }
               )}
             >
+              {/* Add icons for navigation links */}
+              {item.label === "Home" && <FaHome className="text-lg" />}
+              {item.label === "About" && <FaUser className="text-lg" />}
               {item.label}
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary-2"></span>
             </Link>
           );
         })}
+
+        {/* Phone Number with Icon */}
+        <div className="flex items-center gap-2">
+          <FaPhone className="text-lg" />
+          <span>+1 (514) 312-5678</span>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="flex items-center gap-4">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className="text-lg hover:text-blue-500 transition duration-300" />
+          </a>
+          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+            <FaGoogle className="text-lg hover:text-red-500 transition duration-300" />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-lg hover:text-blue-700 transition duration-300" />
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <FaYoutube className="text-lg hover:text-red-600 transition duration-300" />
+          </a>
+        </div>
       </div>
 
       {/* Mobile Navigation */}
@@ -80,35 +116,9 @@ const Navbar = () => {
           aria-expanded={isClicked}
         >
           {isClicked ? (
-            <svg
-              className="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
+            <FaTimes className="h-6 w-6" /> // Close icon
           ) : (
-            <svg
-              className="h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
+            <FaBars className="h-6 w-6" /> // Hamburger icon
           )}
         </button>
 
@@ -123,17 +133,42 @@ const Navbar = () => {
                   key={item.label}
                   onClick={handleLinkClick}
                   className={clsx(
-                    `group hover:text-primary-2 text-[22px] font-bold`,
+                    `group hover:text-primary-2 text-[22px] font-bold flex items-center gap-2`,
                     {
                       "text-primary-2": isActive,
                     }
                   )}
                 >
+                  {/* Add icons for mobile navigation links */}
+                  {item.label === "Home" && <FaHome className="text-lg" />}
+                  {item.label === "About" && <FaUser className="text-lg" />}
                   {item.label}
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary-2"></span>
                 </Link>
               );
             })}
+
+            {/* Phone Number in Mobile Menu */}
+            <div className="flex items-center gap-2 mt-4">
+              <FaPhone className="text-lg" />
+              <span>+1 (514) 312-5678</span>
+            </div>
+
+            {/* Social Media Icons in Mobile Menu */}
+            <div className="flex items-center gap-4 mt-4">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebook className="text-lg hover:text-blue-500 transition duration-300" />
+              </a>
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                <FaGoogle className="text-lg hover:text-red-500 transition duration-300" />
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-lg hover:text-blue-700 transition duration-300" />
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className="text-lg hover:text-red-600 transition duration-300" />
+              </a>
+            </div>
           </div>
         )}
       </div>

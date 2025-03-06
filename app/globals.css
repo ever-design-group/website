@@ -156,7 +156,21 @@ html {
   transform: scale(1.05);
 }
 
+.slides {
+  background-image: linear-gradient(#00000046, rgb(8, 8, 8)), url("/images/b-1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
 
+.services{
+ background: #0a060352;
+}
+.btn{
+  background-color: #0F3532;
+  text-align: center;
+  font-size: 24px;
+}
 @media (max-width: 640px) {
   .Hero, .achive, .contact, .WelcomeHero {
     gap: 20px; /* Reduce gap on small screens */

@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 
 const Team = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ duration: 1 }); 
+  // }, []);
 
   return (
     <section
