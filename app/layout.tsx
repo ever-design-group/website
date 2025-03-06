@@ -6,10 +6,10 @@ const outfit =  Outfit({ subsets: ['latin'] });
 
 export const metadata = {
   icons:{
-    icon:"/icons/logo.svg",
-    apple:"/icons/logo.svg"
+    icon:"/icons/logo2.svg",
+    apple:"/icons/logo2.svg"
   },
-  title: 'Ever Real Estate | Find The Perfect Property',
+  title: 'www.EverdesignGroup.rw ',
   description: 'Find your dream rental/sale property',
   keywords: 'rental, find rentals, find properties',
 };

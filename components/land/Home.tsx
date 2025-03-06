@@ -19,9 +19,9 @@ const Home = () => {
     >
       {/* Welcome Section */}
       <div className="slides min-h-screen flex flex-col md:flex-row max-w-[600px] items-center justify-center flex-1 xs:flex-col-reverse text-white py-10">
-        <div className="flex flex-col gap-6 items-start mx-6">
+        <div className="flex flex-col gap-6 mx-6 text-center">
           <h1 className="text-lg">Welcome to Everdesign</h1>
-          <p className="text-4xl font-bold">
+          <p className="text-5xl font-bold">
             EVERDESIGN GROUP 
           </p>
         </div>

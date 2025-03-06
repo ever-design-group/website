@@ -119,7 +119,7 @@ html {
 
 .about {
   height: 500px;
-  background-image: linear-gradient(90deg, #0F3532, #00000046), url("/images/HeroImage.png");
+  background-image: linear-gradient(90deg, #0F3532, #00000046), url("/images/aboutc.jpg");
   background-attachment: fixed; /* Changed from static to fixed for better effect */
   background-position: center;
   background-repeat: no-repeat;
@@ -157,14 +157,14 @@ html {
 }
 
 .slides {
-  background-image: linear-gradient(#00000046, rgb(8, 8, 8)), url("/images/b-1.png");
+  background-image: linear-gradient(#0000006c, rgba(8, 8, 8, 0.863)), url("/images/sidebg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
 
 .services{
- background: #0a060352;
+ background: #0a0603af;
 }
 .btn{
   background-color: #0F3532;

@@ -41,13 +41,14 @@ const About = () => {
             </button>
           </Link>
         </div>
-        <div className="flex xs:flex-col w-full max-w-[1000px]">
+        <div className="flex xs:flex-col w-full max-w-[600px]">
           <Image
-            src="/images/img3.svg"
+            src="/images/aboutc.jpg"
             alt="About Us Image"
             layout="responsive"
             width={1000}
             height={1500}
+            className="rounded-lg shadow-lg"
           />
         </div>
       </div>
