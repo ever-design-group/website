@@ -87,7 +87,7 @@ const Navbar = () => {
         {/* Phone Number with Icon */}
         <div className="flex items-center gap-2">
           <FaPhone className="text-lg" />
-          <span>+1 (514) 312-5678</span>
+          <span>+250 788 846 668</span>
         </div>
 
         {/* Social Media Icons */}
@@ -151,7 +151,7 @@ const Navbar = () => {
             {/* Phone Number in Mobile Menu */}
             <div className="flex items-center gap-2 mt-4">
               <FaPhone className="text-lg" />
-              <span>+1 (514) 312-5678</span>
+              <span>+250 788 846 668</span>
             </div>
 
             {/* Social Media Icons in Mobile Menu */}
