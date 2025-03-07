@@ -21,9 +21,10 @@ const Footer = () => {
       </Link>
 
           <h1 className='text-sm max-w-[315px]'>
-            A leading cargo logistics company based in Rwanda,aims to enhance
-            its online presence and streamline customer interactions through a
-            website redesign project.
+          Ever Design Group transforms ideas into architectural 
+          masterpieces with innovative design and quality construction. 
+          We prioritize sustainability and efficiency to create lasting, 
+          functional spaces. From concept to completion, we build with precision and excellence.
           </h1>
           <div className='flex gap-6 lg:flex-row'>
             <Image src='/icons/orangeFb.svg' alt='' width={40} height={40} />

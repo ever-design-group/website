@@ -12,16 +12,16 @@ function Partners() {
 
         <div className=' flex flex-col md:flex-row gap-5'>
     <div>
-              <Image src="/icons/partner1.svg" alt="" width={118.5} height={52}  className=""/>
+              <Image src="/images/BK.jpeg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
-              <Image src="/icons/partner2.svg" alt="" width={118.5} height={52}  className=""/>
+              <Image src="/images/equity.jpg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
-              <Image src="/icons/partner3.svg" alt="" width={118.5} height={52}  className=""/>
+              <Image src="/images/ncba.jpg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
-              <Image src="/icons/partner4.svg" alt="" width={118.5} height={52}  className=""/>
+              <Image src="/images/Ben.jpg" alt="" width={90} height={42}  className=""/>
     </div>
         </div>
       </div>
