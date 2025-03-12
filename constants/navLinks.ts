@@ -12,16 +12,16 @@ export const navLinks = [
   //   label: "About",
   // },
   {
-    href: "/#",
+    href: "/#services",
     label: "Services",
   },
   {
-    href: "/#",
+    href: "/#Projects",
     label: "Projects",
   },
 
   {
-    href: "/#",
+    href: "/#contact-us",
     label: "Contact",
   },
 ];
