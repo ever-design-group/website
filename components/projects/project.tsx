@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 
-const top = () => {
+const Top = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 }); // Initialize AOS
   }, []);
@@ -28,4 +28,4 @@ const top = () => {
   );
 };
 
-export default top;
+export default Top;
