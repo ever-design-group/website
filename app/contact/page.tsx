@@ -1,9 +1,8 @@
-"use client"; 
+"use client";
 
 import React from "react";
-import ContactTop from "@/components/contact/Contact";
+import ContactTop from "@/components/contact/ContactTop";
 import ContactUsPage from "@/components/contact/ContactUs";
-import Link from "next/link"; 
 
 const Page = () => {
   return (
