@@ -47,7 +47,7 @@ const AboutUs = () => {
           projects, catering to both residential and commercial clients.
         </p>
         <button className="bg-secondary py-3 px-12 text-white rounded-xl hover:opacity-80 transition-opacity duration-300 text-sm font-semibold">
-          <Link href="#contact-us">Learn More</Link>
+          <Link href="/aboutus">Learn More</Link>
         </button>
       </div>
     </section>

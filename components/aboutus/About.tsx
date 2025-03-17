@@ -25,8 +25,8 @@ const About = () => {
       </div>
 
       {/* Content Section */}
-      <div className="lg:px-[10px] min-h-screen w-screen flex flex-col md:flex-row items-center justify-center flex-1 gap-[5px] xs:flex-col-reverse">
-        <div className="max-w-[600px] flex flex-col gap-6 items-start mx-6 px-10">
+      <div className="aboutsection mt-2 mb-3 min-h-screen w-screen flex flex-col md:flex-row items-center justify-center flex-1 gap-[5px] xs:flex-col-reverse">
+        <div className="max-w-[600px] flex flex-col gap-6 items-start mx-6 ">
           <div className="back">
             <h1 className="text-base text-slate-500">WELCOME TO EVERDESIGN GROUP</h1>
             <h1 className="text-4xl font-bold">We are one of the largest construction company</h1>

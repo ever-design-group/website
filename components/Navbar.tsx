@@ -36,7 +36,7 @@ const Navbar = () => {
     <section
       className={`${
         scrolled ? "drop-shadow" : ""
-      } w-screen sm:h-[80px] flex lg:px-[119px] items-center justify-between bg-primary fixed bgpr z-50 px-6 xs:h-[90px]`}
+      } w-screen  flex lg:px-[119px] items-center justify-between bg-primary fixed bgpr z-50 px-6 xs:h-[90px]`}
     >
       <Link href="/" onClick={handleLinkClick}>
         <Image
@@ -119,7 +119,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isClicked && (
-          <div className="absolute z-20 flex flex-col sm:hidden px-10 py-10 bg-primary text-white right-0 top-[57px] rounded-l-lg w-full items-center transition-all duration-300 ease-in-out">
+          <div className="absolute z-20 flex flex-col sm:hidden px-10 py-10 bg-primary text-white right-0 top-[57px] rounded-l-lg w-full items-center transition-all duration-300 ease-in-out navbar">
             {navLinks.map((item) => {
               const isActive = pathname === item.href;
               return (
@@ -139,9 +139,11 @@ const Navbar = () => {
                 </Link>
               );
             })}
-            <button className="bg-primary-2 text-primary-1 w-[189px] h-[60px] rounded-[12px] hover:opacity-60 mt-4">
-              <Link href="/get-quote">Get A Quote</Link>
-            </button>
+           <div className="ml-9 flex gap-3 mt-2">
+          <button className="py-2 px-6 text-white border rounded-md border-white hover:opacity-60 text-sm font-semibold">
+            <Link href="https://ever-real-estate.vercel.app/">Real Estate</Link>
+          </button>
+        </div>
           </div>
         )}
       </div>

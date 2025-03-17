@@ -15,7 +15,7 @@ const Home = () => {
       data-aos="fade"
       data-aos-offset="300"
       data-aos-easing="ease-in"
-      className="min-h-screen w-screen flex items-center justify-center bg-primary "
+      className="min-h-screen w-screen flex flex-col md:flex-row items-center justify-center bg-primary "
     >
       {/* Welcome Section */}
       <div className="slides min-h-screen flex flex-col md:flex-row max-w-[600px] items-center justify-center flex-1 xs:flex-col-reverse text-white py-10">
@@ -46,23 +46,24 @@ const Home = () => {
 <div className="flex flex-col gap-4 items-start max-w-[600px] ">
   <ul className="space-y-4 w-full">
     {/* Heading with Icon */}
-    <li className="flex items-center gap-3 bg-primary p-6 ">
-      <FaTools className="text-white text-xl" /> 
-      <span>Design & Construction</span>
+    <li className=" ">
+      <a href="/homepage" className="flex items-center gap-3 bg-primary p-4 ">
+      <FaTools className="text-white text-xl" />
+      <span>Design & Construction</span></a> 
     </li>
 
     {/* List Items */}
-    <li className="flex items-center gap-3 bg-primary p-4 ">
-      <FaBuilding className="text-white text-xl" />
-      <span className="text-lg font-semibold text-white">Real Estate</span>
+    <li className="">
+      <a href="https://ever-real-estate.vercel.app/" className="flex items-center gap-3 bg-primary p-4 "><FaBuilding className="text-white text-xl" />
+      <span className="text-lg font-semibold text-white">Real Estate</span></a>
     </li>
-    <li className="flex items-center gap-3 bg-primary p-4 ">
-      <FaUmbrellaBeach className="text-white text-xl" />
-      <span className="text-lg font-semibold text-white">Tourism</span>
+    <li className="">
+      <a href="https://everretreat.com/" className="flex items-center gap-3 bg-primary p-4 "><FaUmbrellaBeach className="text-white text-xl" />
+      <span className="text-lg font-semibold text-white">Tourism</span></a>
     </li>
-    <li className="flex items-center gap-3 bg-primary p-4 ">
-      <FaHotel className="text-white text-xl" />
-      <span className="text-lg font-semibold text-white">Hospitality</span>
+    <li className="">
+      <a href="https://everretreat.com/" className="flex items-center gap-3 bg-primary p-4 "> <FaHotel className="text-white text-xl" />
+      <span className="text-lg font-semibold text-white">Hospitality</span></a>
     </li>
   </ul>
 </div>

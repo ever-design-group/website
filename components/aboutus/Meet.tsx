@@ -3,7 +3,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <section className="w-screen items-center mt-[150px] flex-1 xs:flex-col-reverse">
+    <section className="team w-screen items-center mt-[150px] flex-1 xs:flex-col-reverse">
       <div className="flex xs:flex-col w-full">
         <Image
           src="/images/Meet.jpg"

@@ -10,12 +10,12 @@ const HeroPage = () => {
 
   return (
     <section className="Hero flex flex-col mx-auto max-h-screen xs:justify-center img:items-center xs:items-center w-full h-screen">
-      <div className="sm:max-w-5xl flex flex-col items-center justify-center min-h-screen xs:h-fit xs:gap-3 gap-4 max-w-full">
+      <div className=" sm:max-w-5xl flex flex-col items-center justify-center min-h-screen xs:h-fit xs:gap-3 gap-4 max-w-full">
         <div
           data-aos="fade-left"
           data-aos-offset="300"
           data-aos-easing="ease-in"
-          className="w-full mt-12 xs:w-full xs:mt-9 xs:px-3 flex flex-col gap-6 xs:gap-2 items-start px-10 md:px-[119px]"
+          className="Hero1  w-full mt-12 xs:w-full xs:mt-9 xs:px-3 flex flex-col gap-6 xs:gap-2 items-start px-10 md:px-[119px]"
         >
           <h1 className="text-white text-lg w-full">Welcome to Everdesign</h1>
         

@@ -4,7 +4,7 @@ import React from "react";
 
 const Brand = () => {
   return (
-    <div className=" flex flex-col md:flex-row items-center gap-32 justify-center w-full bg-primary">
+    <div className="brand flex flex-col md:flex-row items-center gap-32 justify-center w-full bg-primary">
       <div className=" flex flex-col w-4/5 md:w-1/3">
         <div className=" mt-20 md:mt-1 flex flex-col font-bold text-white text-2xl md:text-6xl">
           We’re here to help you build your dream{" "}

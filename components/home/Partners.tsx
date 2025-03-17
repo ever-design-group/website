@@ -10,12 +10,12 @@ function Partners() {
         startups, and organizations
         </div>
 
-        <div className=' flex flex-col md:flex-row gap-5'>
+        <div className=' flex md:flex-row gap-5'>
     <div>
               <Image src="/images/BK.jpeg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
-              <Image src="/images/equity.jpg" alt="" width={90} height={42}  className=""/>
+              {/* <Image src="/" alt="" width={90} height={42}  className=""/> */}
     </div>
     <div>
               <Image src="/images/ncba.jpg" alt="" width={90} height={42}  className=""/>

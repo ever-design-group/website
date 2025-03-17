@@ -19,7 +19,7 @@ interface workProps {
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState<workProps | null>(null);
-  const [visibleProjects, setVisibleProjects] = useState(3); // State to track visible projects
+  
 
   const handleShowModal = (project: workProps) => {
     setSelectedProject(project);
@@ -30,7 +30,6 @@ const Projects = () => {
     setShowModal(false);
     setSelectedProject(null);
   };
-
 
   return (
     <section
@@ -58,7 +57,7 @@ const Projects = () => {
       {/* Project Cards */}
       <div className="flex flex-col items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-[1440px]">
-          {projects.slice(0, visibleProjects).map((project, i) => (
+          {projects.slice(0,).map((project, i) => (
             <MyWorkCard
               key={i}
               img={project.img}
@@ -71,19 +70,7 @@ const Projects = () => {
             />
           ))}
         </div>
-
-        {/* Show More/Show Less Buttons */}
-        <div className="flex gap-4 mt-6">
-          {visibleProjects < projects.length && (
-            <button 
-              className="bg-secondary py-2 px-4 text-white rounded-lg hover:opacity-80"
-            >
-              <a href="/project">
-              Show More</a>
-            </button>
-          )}
         </div>
-      </div>
 
       {/* Project Modal */}
       {showModal && selectedProject && (

@@ -108,7 +108,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="flex items-center flex-row-reverse md:hidden">
+      <div className="flex items-center flex-row-reverse md:hidden ">
         <button
           className="inline-flex items-center justify-center p-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-inset"
           onClick={handleToggle}
@@ -124,7 +124,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isClicked && (
-          <div className="absolute z-20 flex flex-col sm:hidden px-10 py-10 bg-primary text-white right-0 top-[57px] rounded-l-lg w-full items-center transition-all duration-300 ease-in-out">
+          <div className="absolute z-20 flex flex-col sm:hidden px-10 py-10 bg-primary text-white right-0 top-[57px] rounded-l-lg w-full items-center transition-all duration-300 ease-in-out navbar">
             {navLinks.map((item) => {
               const isActive = pathname === item.href;
               return (

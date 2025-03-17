@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className=' bg-primary  w-full  flex flex-col items-center'>
+    <footer className=' bg-primary  w-full  flex flex-col '>
       <div className='flex text-white max-w-[1440px]  lg:px-[100px] py-[40px] items-start justify-between border-b-2 border-gray-300 px-4 lg:flex-row flex-col gap-9'>
         <div className=' w-[80%] md:w-[35%] flex flex-col gap-6 text-sm xs:w-full'>
 
@@ -26,14 +26,14 @@ const Footer = () => {
           We prioritize sustainability and efficiency to create lasting, 
           functional spaces. From concept to completion, we build with precision and excellence.
           </h1>
-          <div className='flex gap-6 lg:flex-row'>
+          <div className='flex gap-6 lg:flex-row '>
             <Image src='/icons/orangeFb.svg' alt='' width={40} height={40} />
             <Image src='/icons/google-icon.svg' alt='' width={40} height={40} />
             <Image  src='/icons/linkedinIcon.svg' alt='' width={40} height={40}/>
             <Image src='/icons/youtubeIcon.svg' alt='' width={40} height={40} />
           </div>
         </div>
-        <div className='w-[20%] flex flex-col  lg:gap-[29px] text-[18px] xs:text-[14px]  font-normal xs:w-full gap-2'>
+        <div className='fservice w-[20%] flex flex-col  lg:gap-[29px] text-[18px] xs:text-[14px]  font-normal xs:w-full gap-2'>
           <h1 className='text-secondary font-medium'>Our Services</h1>
           <div className='flex flex-col gap-4 xs:flex-row justify-around text-white text-sm font-normal'>
             <p className=''>Architectural Design</p>
@@ -45,7 +45,7 @@ const Footer = () => {
         <div className=' flex flex-col lg:gap-[29px] gap-2 text-[18px] font-normal xs:w-full mb-0 '>
           <h1 className='text-secondary font-medium'>Useful links</h1>
           <div className='flex gap-[90px] l xs:text-[14px] xs:gap-0'>
-            <div className='flex flex-col gap-4 xs:flex-row xs:justify-between'>
+            <div className='flex flex-col gap-4 xs:flex-row xs:justify-between '>
               {navLinks.map((route) => {
                 return (
                   <Link

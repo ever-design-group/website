@@ -8,6 +8,7 @@ import ServicesCard from "../ui/ServicesCard";
 const Services = () => {
   return (
     <section
+      id="services"
       className="min-h-screen w-screen pt-10 lg:py-[50px] flex flex-col items-center justify-center bg-primary lg:px-[50px] pb-2  px-4"
     >
       {/* Section Title */}

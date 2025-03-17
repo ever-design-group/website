@@ -12,7 +12,7 @@ const ContactUsPage = () => {
       id="contact-us"
       className=" flex flex-col w-full  py-5 items-center justify-center lg:px-[119px] gap-[82px] xs:gap-8 pb-3"
     >
-      <div className="flex lg:flex-row flex-col max-w-[1440px]">
+      <div className="flex lg:flex-row flex-col">
         <ContactDetails />
         <ContactOne />
       </div>

@@ -35,7 +35,7 @@ const ProjectModal: React.FC<ModalProps> = ({ showModal, onClose, project }) => 
   if (!showModal) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 w-screen ">
+    <div className="projectmodel fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 w-screen ">
       <div
         ref={modalRef}
         className="bg-white p-6 rounded-lg shadow-lg max-w-[600px] w-full mx-4"
@@ -45,7 +45,7 @@ const ProjectModal: React.FC<ModalProps> = ({ showModal, onClose, project }) => 
         <p className="text-gray-700 mb-4 text-sm">{project.date}</p>
         
         {/* Image */}
-        <div className="relative w-full h-[300px] mb-4"> {/* Increased image container size */}
+        <div className="proimage relative w-full h-[300px] mb-4"> 
           <Image
             src={project.img}
             alt={project.title}
@@ -55,12 +55,12 @@ const ProjectModal: React.FC<ModalProps> = ({ showModal, onClose, project }) => 
         </div>
         
         {/* Description */}
-        <p className="text-gray-600 text-base max-h-[200px] overflow-y-auto mt-3 p-3 border rounded-lg">
+        <p className="description text-gray-600 text-base max-h-[200px] overflow-y-auto mt-3 p-3 border rounded-lg">
           {project.description}
         </p>
         {/* Close Button */}
         <button
-          className="mt-4 w-full bg-primary text-white px-4 py-0 rounded-md hover:bg-orange-700 transition"
+          className=" w-full bg-primary text-white px-4 py-3 rounded-md hover:bg-orange-700 transition"
           onClick={onClose}
         >
           Close

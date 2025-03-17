@@ -175,24 +175,81 @@ html {
 .bg-primary {
   background: rgb(16,69,65);
 }
+#services{
+  margin-top: -100px;
+  padding-top:  10px;
+}
+
+@media (max-width:375px) {
+  .scrollbar{
+    display: none;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .navbar{
+    margin-top: 20px;
+    transition: all 7s;
+  }
+}
 @media (max-width: 640px) {
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .team{
+    margin-top: 0;
+  }
+  .about h1{
+    font-size: 40px;
+  }
+  .projectmodel{
+   top: 0;
+  } 
+  .description{
+    height: 200px;
+  }
+  .proimage{
+    height: 150px;
+  }
+  body{
+    overflow-x: hidden;
+  }
   .Hero, .achive, .contact, .WelcomeHero {
     gap: 20px; /* Reduce gap on small screens */
   }
-
+.fservice{
+  display: none;
+}
+.brand{
+  gap: 10px;
+}
+.Hero1{
+  padding: 0;
+  margin-top: 0px;
+} 
+.loctionform{
+  width: 100%;
+  margin: 0;
+}
+.loctionform form input{
+  width: 100%;
+}
   .secondbtn {
     margin: 0 0 0 10px; /* Reduce margin on small screens */
   }
 
   .side {
-    width: 10px; /* Reduce width on small screens */
+    width: 10px; 
     margin: 0 5px 0 0; /* Reduce margin on small screens */
   }
 }
 
 @media (min-width: 768px) {
   .Hero, .achive, .contact, .WelcomeHero {
-    gap: 30px; /* Adjust gap for medium screens */
+    gap: 30px; 
   }
 
   .secondbtn {
