@@ -58,7 +58,7 @@ const Home = () => {
       <span className="text-lg font-semibold text-white">Real Estate</span></a>
     </li>
     <li className="">
-      <a href="https://everretreat.com/" className="flex items-center gap-3 bg-primary p-4 "><FaUmbrellaBeach className="text-white text-xl" />
+      <a href="https://everretreat.com/modules/General/views/tourism.php" className="flex items-center gap-3 bg-primary p-4 "><FaUmbrellaBeach className="text-white text-xl" />
       <span className="text-lg font-semibold text-white">Tourism</span></a>
     </li>
     <li className="">

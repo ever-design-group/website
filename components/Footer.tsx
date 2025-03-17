@@ -64,7 +64,7 @@ const Footer = () => {
           <h1 className='text-secondary font-medium'>Contact Us</h1>
           <div className='flex gap-4 '>
             <Image src='/icons/email-icon.svg' alt='' width={19} height={12} />
-            <h1 className='text-sm font-normal'>everdesigns@gmail.com</h1>
+            <h1 className='text-sm font-normal'>everdesigncompanyltd@gmail.com</h1>
           </div>
           <div className='flex gap-4'>
             <Image src='/icons/location3.svg' alt='' width={19} height={12} />

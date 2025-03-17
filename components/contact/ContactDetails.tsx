@@ -25,7 +25,7 @@ const ContactDetails = () => {
              <Image src="/icons/message.svg" width={80} height={80} alt="logo" />
              <div className="flex flex-col gap-4">
                <h1 className="text-2xl font-bold">Email Address</h1>
-               <p className="text-sm">everdesigns@gmail.com</p>
+               <p className="text-sm">everdesigncompanyltd@gmail.com</p>
              </div>
            </div>
          </div>

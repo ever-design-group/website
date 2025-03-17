@@ -4,6 +4,8 @@ import { navLinks } from "@/constants/landnavlinks";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import {
   FaPhone,
   FaHome,
@@ -92,17 +94,14 @@ const Navbar = () => {
 
         {/* Social Media Icons */}
         <div className="flex items-center gap-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className="text-lg hover:text-blue-500 transition duration-300" />
+          <a href="https://www.instagram.com/everdesigngroup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} className="text-lg hover:text-blue-500 transition duration-300" />
           </a>
-          <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-            <FaGoogle className="text-lg hover:text-red-500 transition duration-300" />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/ever-design1/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-lg hover:text-blue-700 transition duration-300" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-            <FaYoutube className="text-lg hover:text-red-600 transition duration-300" />
+          <a href="https://x.com/everdesigngroup" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faXTwitter} className="text-lg hover:text-blue-700 transition duration-300" />
           </a>
         </div>
       </div>
@@ -133,7 +132,7 @@ const Navbar = () => {
                   key={item.label}
                   onClick={handleLinkClick}
                   className={clsx(
-                    `group hover:text-primary-2 text-[22px] font-bold flex items-center gap-2`,
+                    `group hover:text-primary-2 text-[18px] font-bold flex items-center gap-2`,
                     {
                       "text-primary-2": isActive,
                     }
@@ -156,17 +155,14 @@ const Navbar = () => {
 
             {/* Social Media Icons in Mobile Menu */}
             <div className="flex items-center gap-4 mt-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <FaFacebook className="text-lg hover:text-blue-500 transition duration-300" />
+              <a href="https://www.instagram.com/everdesigngroup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+               <FontAwesomeIcon icon={faInstagram} className="text-lg hover:text-red-500 transition duration-3000" />
+               </a>
+              <a href="https://www.linkedin.com/company/ever-design1/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-lg hover:text-red-500 transition duration-300" />
               </a>
-              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
-                <FaGoogle className="text-lg hover:text-red-500 transition duration-300" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="text-lg hover:text-blue-700 transition duration-300" />
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-                <FaYoutube className="text-lg hover:text-red-600 transition duration-300" />
+              <a href="https://x.com/everdesigngroup" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faXTwitter} className="text-lg hover:text-red-500 transition duration-300" />
               </a>
             </div>
           </div>
