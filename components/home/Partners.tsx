@@ -15,7 +15,7 @@ function Partners() {
               <Image src="/images/BK.jpeg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
-              {/* <Image src="/" alt="" width={90} height={42}  className=""/> */}
+              <Image src="/images/mamaafri.jpeg" alt="" width={90} height={42}  className=""/>
     </div>
     <div>
               <Image src="/images/ncba.jpg" alt="" width={90} height={42}  className=""/>
