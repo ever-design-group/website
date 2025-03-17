@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import ContactOne from "./ContactOne";
 import ContactDetails from "./ContactDetails";
 
-const ContactUsPage = () => {
+const ContactUs = () => {
   return (
     <section
       id="contact-us"
@@ -20,4 +20,4 @@ const ContactUsPage = () => {
   );
 };
 
-export default ContactUsPage;
+export default ContactUs;

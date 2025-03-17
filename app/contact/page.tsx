@@ -2,7 +2,7 @@
 
 import Top from '@/components/contact/ContactTop';
 import React, { useEffect } from 'react';
-import ContactUsPage from '@/components/contact/ContactUs';
+import ContactUs from '@/components/contact/ContactUs';
 import Link from 'next/link'; // Import the Link component
 
 const Page = () => {
@@ -16,7 +16,7 @@ const Page = () => {
   return (
     <main className="">
      <Top />
-     <ContactUsPage />
+     <ContactUs />
     </main>
   );
 };
