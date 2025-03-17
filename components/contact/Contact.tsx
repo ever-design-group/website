@@ -1,14 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 
 const  ContactTop = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS
-  }, []);
-
   return (
     <section
       id="about-us"
