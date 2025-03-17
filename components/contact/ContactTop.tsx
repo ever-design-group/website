@@ -13,7 +13,7 @@ const ContactTop = () => { // Ensure the component name starts with an uppercase
       data-aos="fade"
       data-aos-offset="300"
       data-aos-easing="ease-in"
-      className="min-h-screen w-screen flex items-center justify-center bg-gray-800" // Added background color
+      className="min-h-screen w-screen flex items-center justify-center " // Added background color
     >
       {/* About Section with Overlay Text */}
       <div className="about relative w-full h-full">
