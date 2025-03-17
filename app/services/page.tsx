@@ -1,6 +1,6 @@
 "use client";
 
-import Top from '@/components/services/servicetop';
+import Top from '@/components/services/Servicetop';
 import React, { useEffect } from 'react';
 import Services from '@/components/services/Services';
 import Link from 'next/link'; // Import the Link component

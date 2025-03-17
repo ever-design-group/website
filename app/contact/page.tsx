@@ -1,8 +1,8 @@
 "use client";
 
-import Top from '@/components/contact/contacttop';
+import Top from '@/components/contact/Contacttop';
 import React, { useEffect } from 'react';
-import ContactUsPage from '@/components/contact/contactUs';
+import ContactUsPage from '@/components/contact/ContactUs';
 import Link from 'next/link'; // Import the Link component
 
 const Page = () => {
