@@ -1,6 +1,6 @@
 "use client";
 
-import ServiceTop from '@/components/services/ServiceTop';
+import Service from '@/components/services/Service';
 import React, { useEffect } from 'react';
 import Services from '@/components/services/Services';
 import Link from 'next/link'; // Import the Link component
@@ -15,7 +15,7 @@ const Page = () => {
 
   return (
     <main className="">
-     <ServiceTop />
+     <Service />
      <Services />
     </main>
   );
