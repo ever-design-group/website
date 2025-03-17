@@ -1,6 +1,6 @@
 "use client";
 
-import Project from '@/components/projects/Project';
+import Projectd from '@/components/projects/Projectd';
 import React, { useEffect } from 'react';
 import Projects from '@/components/projects/Projects';
 import Link from 'next/link'; // Import the Link component
@@ -15,7 +15,7 @@ const Page = () => {
 
   return (
     <main className="">
-     <Project />
+     <Projectd />
      <Projects />
     </main>
   );
