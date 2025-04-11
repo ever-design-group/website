@@ -180,9 +180,11 @@ html {
   padding-top:  10px;
 }
 .icons{
-  font-size: 25px;
+  font-size: 20px;
 }
 .icon-bg{
+  width: 40px;
+  height: 40px;
   background: #E46322;
   padding: 10px;
   border-radius: 50%;

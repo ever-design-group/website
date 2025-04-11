@@ -10,7 +10,7 @@ function Partners() {
         startups, and organizations
         </div>
 
-        <div className=' flex md:flex-row gap-5'>
+        {/* <div className=' flex md:flex-row gap-5'>
     <div>
               <Image src="/images/BK.jpeg" alt="" width={90} height={42}  className=""/>
     </div>
@@ -23,7 +23,7 @@ function Partners() {
     <div>
               <Image src="/images/Ben.jpg" alt="" width={90} height={42}  className=""/>
     </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faXTwitter, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   FaPhone,
   FaHome,
@@ -44,7 +44,11 @@ const Navbar = () => {
   const handleLinkClick = () => {
     setIsClicked(false);
   };
-
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "+250788846668";
+    const message = "Hello, I'd like more information!";
+    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+  };
   return (
     <section
       className={`${
@@ -103,6 +107,9 @@ const Navbar = () => {
           <a href="https://x.com/everdesigngroup" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faXTwitter} className="text-lg hover:text-blue-700 transition duration-300" />
           </a>
+             <a href="" target="_blank" rel="noopener noreferrer" onClick={handleWhatsAppClick}>
+               <FontAwesomeIcon icon={faWhatsapp} className="text-lg hover:text-blue-700 transition duration-300" />
+                </a>
         </div>
       </div>
 
