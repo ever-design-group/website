@@ -179,7 +179,14 @@ html {
   margin-top: -100px;
   padding-top:  10px;
 }
-
+.icons{
+  font-size: 25px;
+}
+.icon-bg{
+  background: #E46322;
+  padding: 10px;
+  border-radius: 50%;
+}
 @media (max-width:375px) {
   .scrollbar{
     display: none;

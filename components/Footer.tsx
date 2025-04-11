@@ -1,9 +1,21 @@
 import Image from 'next/image';
 import logo from '@/assets/images/logo.png';
 import Link from 'next/link';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faXTwitter,faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { navLinks } from '@/constants/navLinks';
+import {
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "+250788846668";
+    const message = "Hello, I'd like more information!";
+    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+  };
 
   return (
     <footer className=' bg-primary  w-full  flex flex-col '>
@@ -27,10 +39,24 @@ const Footer = () => {
           functional spaces. From concept to completion, we build with precision and excellence.
           </h1>
           <div className='flex gap-6 lg:flex-row '>
-            <Image src='/icons/orangeFb.svg' alt='' width={40} height={40} />
+            <div className="flex items-center gap-4">
+                      <a href="https://www.instagram.com/everdesigngroup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className='icon-bg'>
+                      <FontAwesomeIcon icon={faInstagram} className="icons text-lg hover:text-blue-500 transition duration-300 "/>
+                      </a>
+                      <a href="https://www.linkedin.com/company/ever-design1/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className='icon-bg'>
+                        <FaLinkedin className="icons text-lg hover:text-blue-700 transition duration-300" />
+                      </a>
+                      <a href="https://x.com/everdesigngroup" target="_blank" rel="noopener noreferrer" className='icon-bg'>
+                      <FontAwesomeIcon icon={faXTwitter} className="icons text-lg hover:text-blue-700 transition duration-300" />
+                      </a>
+                      <a href="" target="_blank" rel="noopener noreferrer" className='icon-bg' onClick={handleWhatsAppClick}>
+                      <FontAwesomeIcon icon={faWhatsapp} className="icons text-lg hover:text-blue-700 transition duration-300" />
+                      </a>
+                    </div>
+            {/* <Image src='/icons/orangeFb.svg' alt='' width={40} height={40} />
             <Image src='/icons/google-icon.svg' alt='' width={40} height={40} />
             <Image  src='/icons/linkedinIcon.svg' alt='' width={40} height={40}/>
-            <Image src='/icons/youtubeIcon.svg' alt='' width={40} height={40} />
+            <Image src='/icons/youtubeIcon.svg' alt='' width={40} height={40} /> */}
           </div>
         </div>
         <div className='fservice w-[20%] flex flex-col  lg:gap-[29px] text-[18px] xs:text-[14px]  font-normal xs:w-full gap-2'>
