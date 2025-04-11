@@ -171,6 +171,9 @@ const Navbar = () => {
               <a href="https://x.com/everdesigngroup" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faXTwitter} className="text-lg hover:text-red-500 transition duration-300" />
               </a>
+              <a href="" target="_blank" rel="noopener noreferrer" onClick={handleWhatsAppClick}>
+               <FontAwesomeIcon icon={faWhatsapp} className="text-lg hover:text-blue-700 transition duration-300" />
+                </a>
             </div>
           </div>
         )}
