@@ -33,7 +33,7 @@ const About = () => {
           </div>
 
           <p className="text-4 text-slate-500">
-          Ever Design Group is a leading architectural and investment firm in Rwanda,  known for its innovative design and strategic expansion into the hospitEver Design is an architectural firm with a diverse portfolio of work in and around Kigali, with a focus on residential housing. Our creative team are problem solvers in all phases of our clients' projects.ality sector.  The company excels in offering comprehensive solutions, including design,  construction, and management of villa projects, catering to both residential  and commercial clients.
+         Ever Design Group is a leading architectural and construction firm in Rwanda, known for its innovative designs and commitment to excellence. Based in Kigali, the company has a diverse portfolio with a strong focus on both residential and commercial construction. Our team of skilled labor and professionals delivers end-to-end solutions—from design and planning to construction and project management. We specialize in developing high-quality villas and buildings tailored to meet the unique needs of our clients across various sectors.
           </p>
           <Link href="#contact-u" passHref>
             <button className="bg-secondary py-3 px-12 text-white rounded-xl hover:opacity-60 text-sm font-semibold">
