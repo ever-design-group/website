@@ -17,12 +17,12 @@ export const POST = async (request:Request) => {
 
         const recipients = [
             {
-                name: "chancedira",
-                address: "chancedesire60@gmail.com"
+                name: "iradukunda",
+                address: "iradukundaericmbabazi@gmail.com"
             },
             {
-                name: "Calvin Buka",
-                address: "calvinbukarani@gmail.com"
+                 name: "iradukunda",
+                address: "iradukundaericmbabazi@gmail.com"
             }
         ];
         const results = await sendEmail({

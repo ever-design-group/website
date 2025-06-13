@@ -43,7 +43,7 @@ const About = () => {
         </div>
         <div className="flex xs:flex-col w-full max-w-[600px]">
           <Image
-            src="/images/aboutc.jpg"
+            src="/images/aboutus1.jpg"
             alt="About Us Image"
             layout="responsive"
             width={1000}

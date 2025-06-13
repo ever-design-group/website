@@ -18,7 +18,7 @@ const ContactDetails = () => {
              <Image src="/icons/telephone.svg" width={80} height={80} alt="logo" />
              <div className="flex flex-col gap-4">
                <h1 className="text-2xl font-bold">Phone Number</h1>
-               <p className="text-sm">+250 788 846 668</p>
+               <p className="text-sm">+250 785 035 071</p>
              </div>
            </div>
            <div className="flex gap-[37px] items-center lg:flex-row flex-col">
