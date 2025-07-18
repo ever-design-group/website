@@ -93,7 +93,7 @@ const Navbar = () => {
         {/* Phone Number with Icon */}
         <div className="flex items-center gap-2">
           <FaPhone className="text-lg" />
-          <span>+250 788 846 668</span>
+          <span>+250785035071</span>
         </div>
 
         {/* Social Media Icons */}

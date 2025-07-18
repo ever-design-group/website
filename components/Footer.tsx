@@ -105,7 +105,7 @@ const Footer = () => {
               width={19}
               height={12}
             />
-            <h1 className='text-sm font-normal'>+250 788 846 668</h1>
+            <h1 className='text-sm font-normal'>+250785035071</h1>
           </div>
         </div>
       </div>

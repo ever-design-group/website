@@ -32,8 +32,9 @@ export default function RootLayout({
           name="keywords"
           content="construction company Rwanda, architecture Rwanda, green building Rwanda, modern architecture Kigali, Ever Design Group, affordable housing Rwanda, sustainable buildings Rwanda, interior design Rwanda, best builders Rwanda"
         />
+        {/* ✅ Google Analytics Tag */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-MEQHFREZXP"
+          src="https://www.googletagmanager.com/gtag/js?id=G-1B8Q9RRT0K"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -41,11 +42,13 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-MEQHFREZXP');
+            gtag('config', 'G-1B8Q9RRT0K');
           `}
         </Script>
       </head>
-      <body className={`${outfit.className} overflow-x-hidden`}>{children}</body>
+      <body className={`${outfit.className} overflow-x-hidden`}>
+        {children}
+      </body>
     </html>
   );
 }
