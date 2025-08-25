@@ -9,15 +9,6 @@ export const projects = [
     date: " February 2025.",
   },
     {
-     img: "/images/b-4.png",
-    title: "Villa",
-    description:
-      "This floor layout is ideal for entertaining guests and features a spectacular view of Gisenyi Lake Kivu from all of the main rooms. This magnificent open house includes glass partitions in all of the bedrooms and modern curtains for privacy when needed.",
-    label: "View Project",
-    link: "/",
-    date: "March 2022",
-  },
-  {
     img: "/images/b-2.jpg",
     title: "Jesus Christ Church",
     description:
@@ -26,6 +17,16 @@ export const projects = [
     link: "/",
     date: "November 2024",
   },
+    {
+     img: "/images/b-4.png",
+    title: "Villa",
+    description:
+      "This floor layout is ideal for entertaining guests and features a spectacular view of Gisenyi Lake Kivu from all of the main rooms. This magnificent open house includes glass partitions in all of the bedrooms and modern curtains for privacy when needed.",
+    label: "View Project",
+    link: "/",
+    date: "March 2022",
+  },
+
   {
    
     img: "/images/b-1.png",
