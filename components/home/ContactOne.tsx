@@ -57,8 +57,7 @@ const ContactOne = () => {
       <div className="flex flex-col gap-4">
         <h1 className='text-black text-4xl font-semibold'>Get In Touch</h1>
         <p className='text-[18px] text-black leading-[26px] font-light'>
-        Personal Tax Planning: Our tax consultants work closely with individuals to develop comprehensive tax plans tailored to their unique financial situations.
-        </p>
+Your project deserves a personal touch. We don't just bid; we collaborate. Contact us, and our team will come to you to start our close partnership.        </p>
       </div>
       <form onSubmit={handleSubmit} className='flex flex-col gap-[17px] text-slate-700'>
         <div className='flex gap-[22px] w-full xs:flex-col'>
