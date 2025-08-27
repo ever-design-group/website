@@ -9,7 +9,7 @@ export const projects = [
     date: " February 2025.",
   },
     {
-    img: "/images/b-2.jpg",
+    img: "/images/church.JPG",
     title: "Jesus Christ Church",
     description:
       "This project is situated in Gisozi, Kigali, near ULK. We are privileged to have contributed to the renovation of Jesus Christ Church. Our team expertly handled the finishing touches, painting, and all associated construction work, ensuring successful and timely completion in accordance with the project plan.",
