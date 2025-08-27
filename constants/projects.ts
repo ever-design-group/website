@@ -8,6 +8,16 @@ export const projects = [
     link: "/",
     date: " February 2025.",
   },
+  
+  {
+    img: "/images/interior.jpg",
+    title: "Interior design",
+    description:
+      "Interior design that inspires.Crafted for comfort and style.Bringing vision to life.",
+    label: "View Project",
+    link: "/",
+    date: "March 2025",
+  },
     {
     img: "/images/church.JPG",
     title: "Jesus Christ Church",
@@ -48,4 +58,5 @@ export const projects = [
     date: "March 2022",
   },
    
+  
 ];
