@@ -18,6 +18,15 @@ export const projects = [
     link: "/",
     date: "March 2025",
   },
+  {
+    img: "/images/remere.png",
+    title: "residential house",
+    description:
+      "Comprehensive finishing works for a G+5 residential apartment. From structural alterations to final touches in painting, tiling, and landscaping.",
+    label: "View Project",
+    link: "/",
+    date: "june 2025",
+  },
     {
     img: "/images/church.JPG",
     title: "Jesus Christ Church",
