@@ -20,7 +20,7 @@ const AboutUs = () => {
       {/* Image Section */}
       <div className="w-full max-w-[1000px] rounded-lg overflow-hidden shadow-lg">
         <Image
-          src="/images/aboutus.jpg"
+          src="/images/aboutus.webp"
           alt="Office Image"
           layout="responsive"
           width={1000}

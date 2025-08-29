@@ -46,7 +46,7 @@ Mixed-use and community development`,
   },
   {
     img: "/images/design.png",
-    title: "Custom aolutions",
+    title: "Custom solutions",
     description:
       `Master planning and site analysis
 Zoning and regulatory compliance

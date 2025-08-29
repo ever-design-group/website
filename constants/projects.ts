@@ -1,6 +1,6 @@
 export const projects = [
   {
-    img: "/images/umuyenzi.jpg",
+    img: "/images/umuyenzi.webp",
     title: "Umuyenzi City Center",
     description:
       "We are proudly working on the Umuyenzi Project located in the heart of Kigali near IM Bank and the City of Kigali office currently focusing on plastering and finishing works together with Chinese professionals since early 2025.",
@@ -10,7 +10,7 @@ export const projects = [
   },
   
   {
-    img: "/images/interior.jpg",
+    img: "/images/interior.webp",
     title: "Interior design",
     description:
       "Interior design that inspires.Crafted for comfort and style.Bringing vision to life.",
@@ -19,7 +19,7 @@ export const projects = [
     date: "March 2025",
   },
   {
-    img: "/images/remere.png",
+    img: "/images/remere.webp",
     title: "residential house",
     description:
       "Comprehensive finishing works for a G+5 residential apartment. From structural alterations to final touches in painting, tiling, and landscaping.",
@@ -28,7 +28,7 @@ export const projects = [
     date: "june 2025",
   },
     {
-    img: "/images/church.JPG",
+    img: "/images/church.webp",
     title: "Jesus Christ Church",
     description:
       "This project is situated in Gisozi, Kigali, near ULK. We are privileged to have contributed to the renovation of Jesus Christ Church. Our team expertly handled the finishing touches, painting, and all associated construction work, ensuring successful and timely completion in accordance with the project plan.",
@@ -37,7 +37,7 @@ export const projects = [
     date: "November 2024",
   },
     {
-     img: "/images/b-4.png",
+     img: "/images/b-4.webp",
     title: "Villa",
     description:
       "This floor layout is ideal for entertaining guests and features a spectacular view of Gisenyi Lake Kivu from all of the main rooms. This magnificent open house includes glass partitions in all of the bedrooms and modern curtains for privacy when needed.",
@@ -48,7 +48,7 @@ export const projects = [
 
   {
    
-    img: "/images/b-1.png",
+    img: "/images/b-1.webp",
     title: "Apartments",
     description:
       "This is a modern 8-bedroom apartment design tailored to the client’s request. The layout emphasizes functionality, comfort, and efficient use of space. Its façade blends modern and traditional architectural elements, creating a unique and timeless appearance",
@@ -58,7 +58,7 @@ export const projects = [
   },
 
   {
-    img: "/images/b-3.png",
+    img: "/images/b-3.webp",
     title: "Block Solution",
     description:
       "we got a chance to have collaboration for construct a tiny house with Block solutions which is a Finland-based company who has developed environmentally friendly Block-modules. The Block-modules are used for building sustainable and safe homes for people all around the world, thus fostering local well-being.",

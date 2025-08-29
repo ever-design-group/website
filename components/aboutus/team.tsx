@@ -16,7 +16,7 @@ const Team = () => {
         {/* Image */}
         <div className="flex w-full max-w-[600px] order-1 md:order-2 mb-8 md:mb-0">
           <Image
-            src="/images/Ceo.jpg"
+            src="/images/Ceo.webp"
             alt="Theophile IYAMUREMYE"
             layout="responsive"
             width={1000}
