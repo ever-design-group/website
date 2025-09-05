@@ -57,7 +57,8 @@ const Navbar = () => {
     >
       <Link href="/" onClick={handleLinkClick}>
         <Image
-          src="/icons/logo2.svg"
+          src="/images/EVER DESIGN GROUP-02.png"
+        // src="/icons/logo2.svg"
           alt="Logo"
           width={118.5}
           height={52}

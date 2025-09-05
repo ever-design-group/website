@@ -20,12 +20,30 @@ export const projects = [
   },
   {
     img: "/images/remere.webp",
-    title: "residential house",
+    title: "Remera Apartment renovation",
     description:
       "Comprehensive finishing works for a G+5 residential apartment. From structural alterations to final touches in painting, tiling, and landscaping.",
     label: "View Project",
     link: "/",
     date: "june 2025",
+  },
+  {
+    img: "/images/structure project.webp",
+    title: "Apartment structure Development",
+    description:
+      "From concept to construction: Our comprehensive design approach.Bringing architectural visions to life through precise structural planning and engineering solutions",
+    label: "View Project",
+    link: "/",
+    date: "July 2025",
+  },
+   {
+    img: "/images/rebero project.webp",
+    title: "Rebero Residential Development",
+    description:
+      "Our comprehensive residential project in Rebero demonstrates our full-service capabilities from initial 2D and 3D design concepts through to current construction phase. This development showcases our complete design-build approach, handling every aspect of the project to deliver quality housing solutions in one of Kigali's prime locations.",
+    label: "View Project",
+    link: "/",
+    date: "June 2025",
   },
     {
     img: "/images/church.webp",
