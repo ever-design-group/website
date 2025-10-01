@@ -32,7 +32,7 @@ const Team = () => {
         {/* Image */}
         <div className="flex w-full max-w-[600px] mb-8 md:mb-0">
           <Image
-            src="/images/howstart.jpg"
+            src="/images/howstart.webp"
             alt="How we started"
             layout="responsive"
             width={1000}

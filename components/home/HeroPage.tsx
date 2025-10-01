@@ -30,7 +30,7 @@ const HeroPage = () => {
             </div>
           </div>
           <p className="my-4 text-base text-white max-w-[562px] w-full xs:max-w-[300px]">
-            Ever Design is a young architectural firm in Kigali with a great passion for designing outstanding architecture and challenging the status quo.
+            Ever Design is an architectural firm in Kigali with a great passion for designing outstanding architecture and challenging the status quo.
           </p>
           <div className="d-flex">
           <button className="bg-secondary py-3 px-6 text-white rounded-xl hover:opacity-60 text-sm font-semibold">
