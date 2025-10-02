@@ -7,7 +7,7 @@ const Team = () => {
       <div className="flex xs:flex-col w-full">
         <Image
           src="/images/Meet.jpg"
-          alt="About Us Image"
+          alt="Project management construction team in Rwanda"
           layout="responsive"
           width={1000}
           height={1500}

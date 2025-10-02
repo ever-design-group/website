@@ -44,7 +44,7 @@ const About = () => {
         <div className="flex xs:flex-col w-full max-w-[600px]">
           <Image
             src="/images/aboutus1.webp"
-            alt="About Us Image"
+            alt="Skilled builders and contractors at work in Kigali"
             layout="responsive"
             width={1000}
             height={1500}
