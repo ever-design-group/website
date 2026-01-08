@@ -111,7 +111,7 @@ const Footer = () => {
       </div>
       <div className='text-center items-center w-full lg:px-[100px]'>
       <h1 className=' text-white py-8 text-sm '>
-        © Copyright 2025 <span className='text-secondary'>EverDesign</span>
+        © Copyright 2026 <span className='text-secondary'>EverDesign</span>
       </h1>
       </div>
     </footer>
