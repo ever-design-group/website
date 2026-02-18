@@ -37,7 +37,7 @@ const About = () => {
           </p>
           <Link href="https://everdesigngroup.rw/contact" passHref>
             <button className="bg-secondary py-3 px-12 text-white rounded-xl hover:opacity-60 text-sm font-semibold">
-              Get 
+              Get in Touch
             </button>
           </Link>
         </div>
