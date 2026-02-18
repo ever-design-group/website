@@ -35,9 +35,9 @@ const About = () => {
           <p className="text-4 text-slate-500">
          Ever Design Group is a leading architectural and construction firm in Rwanda, known for its innovative designs and commitment to excellence. Based in Kigali, the company has a diverse portfolio with a strong focus on both residential and commercial construction. Our team of skilled labor and professionals delivers end-to-end solutions—from design and planning to construction and project management. We specialize in developing high-quality villas and buildings tailored to meet the unique needs of our clients across various sectors.
           </p>
-          <Link href="#contact-u" passHref>
+          <Link href="https://everdesigngroup.rw/contact" passHref>
             <button className="bg-secondary py-3 px-12 text-white rounded-xl hover:opacity-60 text-sm font-semibold">
-              Learn More
+              Get 
             </button>
           </Link>
         </div>
