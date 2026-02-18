@@ -71,7 +71,7 @@ const Navbar = () => {
         })}
         <div className="ml-9 flex gap-3">
           <button className="py-1 px-2 my-6 text-white border rounded-md border-white hover:opacity-60 text-sm font-semibold">
-            <Link href="https://arch.everdesigngroup.rw//">Real Estate</Link>
+            <Link href="https://ever-real-estate.vercel.app/">Real Estate</Link>
           </button>
         </div>
       </div>

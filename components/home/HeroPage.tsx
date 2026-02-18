@@ -34,7 +34,7 @@ const HeroPage = () => {
           </p>
           <div className="d-flex">
           <button className="bg-secondary py-3 px-6 text-white rounded-xl hover:opacity-60 text-sm font-semibold">
-            <Link href="#services">Explore our Services</Link> 
+            <Link href="https://everdesigngroup.rw/services">Explore our Services</Link> 
           </button>
           </div>
         </div>
